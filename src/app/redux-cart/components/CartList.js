@@ -2,7 +2,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import CartItem from "../components/CartItem";
+import CartItem from "../containers/CartItem";
 
 export default function CartList(props) { 
     let {items} = props;

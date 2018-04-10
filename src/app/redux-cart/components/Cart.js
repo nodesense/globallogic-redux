@@ -3,8 +3,8 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //TODO: container
-import CartList from "../components/CartList";
-import CartSummary from "../components/CartSummary";
+import CartList from "../containers/CartList";
+import CartSummary from "../containers/CartSummary";
 
 export default function Cart(props) { 
         return (

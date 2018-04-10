@@ -24,6 +24,7 @@ export default class ProductList extends Component {
     
     componentDidMount() {
         // dispatch function as a action
+        this.props.actions.getProductsFromServer();
          
     }
     

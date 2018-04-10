@@ -6,10 +6,13 @@ import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 
  
-import ReduxCart from "./redux-cart/components/Cart";
-import ProductList from "./product/components/ProductList";
+import ReduxCart from "./redux-cart/containers/Cart";
+import ProductList from "./product/containers/ProductList";
 
-import Counter from "./components/Counter";
+// dump component
+// import Counter from "./components/Counter";
+//Container, smart component
+import Counter from "./containers/CounterContainer";
 
 import {BrowserRouter as Router, 
         Route, 

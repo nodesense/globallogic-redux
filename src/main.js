@@ -13,8 +13,9 @@ import Routes from "./app/Routes";
 
 // render (virtual dom, real dom)
 // store is exposed as context variable by provider
-render( 
-        <Routes />
+render( <Provider store={store}>
+             <Routes />
+        </Provider>
        
         ,
     document.getElementById('root'));
